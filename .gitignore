@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Local backups
+data/backups/
+
+# Environment and local configuration
+.env
+.env.*
+*.local
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
